@@ -1,12 +1,12 @@
 //создать элемент на чистом яваскрипте;
-let ok = document.createElement('p');
-ok.innerHTML='<h1>Gallery on JavaScript';
+let ok = document.createElement('h1');
+ok.innerHTML='Gallery on JavaScript';
 document.querySelector('main').append(ok);
 let img=['site/img/DSC_7553.JPG','site/img/DSC_7554.JPG','site/img/DSC_7555.JPG','site/img/DSC_7556.JPG','site/img/DSC_7557.JPG','site/img/DSC_7558.JPG','site/img/DSC_7559.JPG'];
 
 function imageStart(){
   let images=document.createElement('p');
-  images.innerHTML='it\'s a live!<br> Эта фото галерея будет понятна, даже полному ... Барсуку!!!<br><a href="https://github.com/amir248/photoGallery">github</a>';
+  images.innerHTML='it\'s a live!<br> Эта фото галерея будет понятна, даже полному ... Барсуку!!!<br><a href="https://github.com/amir248/photoGallery" style="font-size:37px;color:green;">github</a><br><a href="https://nasobe.ru/">веб мастерская имени барона сайтоверстаузена</a>';
   images.setAttribute('src','site/img/DSC_7559.JPG');
   images.setAttribute('alt','photo Gallery on Java Script for youtube');
   images.setAttribute('id','one');
