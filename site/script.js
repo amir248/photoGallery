@@ -1,4 +1,5 @@
-let ok = document.createElement('p');
+//создать элемент на чистом яваскрипте;
+et ok = document.createElement('p');
 ok.innerHTML='<h1>Gallery on JavaScript';
 document.querySelector('main').append(ok);
 let img=['site/img/DSC_7553.JPG','site/img/DSC_7554.JPG','site/img/DSC_7555.JPG','site/img/DSC_7556.JPG','site/img/DSC_7557.JPG','site/img/DSC_7558.JPG','site/img/DSC_7559.JPG'];
