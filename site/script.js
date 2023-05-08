@@ -7,6 +7,7 @@ function imageStart(){
   let images=document.createElement('p');
   images.innerHTML='is it live!';
   images.setAttribute('src','site/img/DSC_7559.JPG');
+  images.setAttribute('alt','photo Gallery for Java Script');
   images.setAttribute('id','one');
   document.querySelector('main').append(images);
   let i=+0;
