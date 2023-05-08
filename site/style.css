@@ -20,9 +20,11 @@ main{
 #one{
   max-width: 900px;
   width:100%;
+  margin-bottom: 1%;
 }
 img{
   max-width: 150px;
+  border-radius: 7px;
 }
 section{
   width:100%;
