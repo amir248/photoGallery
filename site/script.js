@@ -6,7 +6,7 @@ let img=['site/img/DSC_7553.JPG','site/img/DSC_7554.JPG','site/img/DSC_7555.JPG'
 
 function imageStart(){
   let images=document.createElement('p');
-  images.innerHTML='it\'s a live!<br> Эта фото галерея будет понятна, даже полному ... Барсуку!!!';
+  images.innerHTML='it\'s a live!<br> Эта фото галерея будет понятна, даже полному ... Барсуку!!!<br><a href="https://github.com/amir248/photoGallery">github</a>';
   images.setAttribute('src','site/img/DSC_7559.JPG');
   images.setAttribute('alt','photo Gallery on Java Script for youtube');
   images.setAttribute('id','one');
